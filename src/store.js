@@ -5,6 +5,7 @@ const initialState = {
   selectedAuthor: '',
 };
 
+
 const authorSlice = createSlice({
   name: 'author',
   initialState,
@@ -14,6 +15,7 @@ const authorSlice = createSlice({
     },
   },
 });
+
 
 export const { setAuthor } = authorSlice.actions;
 
