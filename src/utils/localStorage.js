@@ -18,8 +18,8 @@ export const updatePostToLocalStorage = (updatedPost) => {
   savePostsToLocalStorage(updatedPosts);
 }
 
-export const deletePostFromLocalStorage = (postId) => {
-  const posts = getPostsFromLocalStorage();
-  const updatedPosts = posts.filter((post) => post.id !== postId);
-  savePostsToLocalStorage(updatedPosts);
-};
+// export const deletePostFromLocalStorage = (postId) => {
+//   const posts = getPostsFromLocalStorage();
+//   const updatedPosts = posts.filter((post) => post.id !== postId);
+//   savePostsToLocalStorage(updatedPosts);
+// };

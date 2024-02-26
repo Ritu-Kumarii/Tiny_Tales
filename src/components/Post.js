@@ -1,12 +1,8 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import {
-  deletePostFromLocalStorage,
-  updatePostToLocalStorage,
-} from "../utils/localStorage";
+import { Link } from "react-router-dom";
+import { updatePostToLocalStorage} from "../utils/localStorage";
 
 const Post = ({ post }) => {
-  const navigate = useNavigate();
   const [likes, setLikes] = useState(post?.likes);
 
   const handleLike = () => {
@@ -47,12 +43,12 @@ const Post = ({ post }) => {
           gap: "0.2rem",
         }}
       >
-        <button
+        {/* <button
           className="post-action-edit"
           onClick={() => navigate(`/post/${post.id}/edit`)}
         >
           Edit
-        </button>
+        </button> */}
       </div>
       <div
         style={{

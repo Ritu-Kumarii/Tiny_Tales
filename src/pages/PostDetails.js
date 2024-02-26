@@ -46,7 +46,7 @@ const PostDetails = () => {
         </>
       )}
 
-      {postDetails && <Link to={`/post/${postId}/edit`}>Edit Post</Link>}
+      {postDetails && <Link to={`/post/${postId}/edit`}><button>Edit Post</button></Link>}
     </div>
   );
 };
