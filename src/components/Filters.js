@@ -1,3 +1,4 @@
+//
 import React, { useEffect, useState } from "react";
 import "../styles/filters.css";
 import { getPostsFromLocalStorage } from "../utils/localStorage";

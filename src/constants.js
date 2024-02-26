@@ -1,4 +1,5 @@
-export const allowedAuthors = ["Colleen Hoover","J.K. Rowling", "John Green"];
+//constants.js
+export const allowedAuthors = ["Colleen Hoover", "John Green", "J.K. Rowling"];
 
 export const blogThemesAvailable = [
   "Adventure",

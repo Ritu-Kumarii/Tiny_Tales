@@ -1,4 +1,4 @@
-/* Additional styling for CreatePost component */
+/*  Additional styling for CreatePost component */
 .create-post-form {
   width: 100%;
 }
@@ -18,7 +18,7 @@
 }
 
 .create-post-form button {
-  background-color: #007bff; /* Directly using the color value */
+  background-color: #007bff; 
   color: #fff;
   padding: 10px 20px;
   cursor: pointer;

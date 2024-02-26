@@ -1,4 +1,4 @@
-
+//localstorage.js
 const LOCAL_STORAGE_KEY = 'blogPosts';
 
 export const getPostsFromLocalStorage = () => {
